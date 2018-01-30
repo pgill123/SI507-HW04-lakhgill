@@ -43,12 +43,6 @@ def question ():
         # print("Your Question is: " + input_answer + ".")
         if input_answer == "Q":
             break
-        random_answer = None
-        num = randrange(0, 19)
-        random_answer = magic[num]
-        print("The answer is: " + random_answer + ".")
-
-
 
 
 test = question()
