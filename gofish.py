@@ -1,6 +1,6 @@
 # Purpose: Homework 4
 # Collaborators: Preeti Gill, Wei Yun Chang,
-
+#Need a README
 from random import randrange
 
 magic = [
@@ -33,7 +33,6 @@ def question ():
         print("****************")
         print ("It's Magic Eight Ball time!")
         input_answer = input('Please enter your question for the Magic Eight Ball or "Q" to quit:\n')
-<<<<<<< HEAD
         #Person A : Write code that checks if user input is a question (i.e., ends in a ‘?’) and,
         #if not, prints “I’m sorry, I can only answer questions.” (or something similar)
         #Edit the program so that it keeps asking for user input until the user inputs “quit”
@@ -46,14 +45,5 @@ def question ():
             break
 
 
-=======
-        # Person B, I think you need to add your code here?
-        # Person B :　In the magic_eight.py file add code to pick an answer at random from the 20 possible 8 ball answers.
-        print("Your Question is: " + input_answer + ".")
-        random_answer = None
-        num = randrange(0, 19)
-        random_answer = magic[num]
-        print("The answer is: " + random_answer + ".")
->>>>>>> a3c7e2bcdca763d2c263fe54a4d68cda6de71970
 
 test = question()
