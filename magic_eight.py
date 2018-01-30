@@ -1,5 +1,5 @@
 # Purpose: Homework 4
-# Collaborators: Preeti Gill,
+# Collaborators: Preeti Gill, Wei Yun Chang,
 
 from random import randrange
 
@@ -34,5 +34,11 @@ def question ():
         print ("It's Magic Eight Ball time!")
         input_answer = input('Please enter your question for the Magic Eight Ball or "Q" to quit:\n')
         # Person B, I think you need to add your code here?
+        # Person B :　In the magic_eight.py file add code to pick an answer at random from the 20 possible 8 ball answers.
+        print("Your Question is: " + input_answer + ".")
+        random_answer = None
+        num = randrange(0, 19)
+        random_answer = magic[num]
+        print("The answer is: " + random_answer + ".")
 
 test = question()
